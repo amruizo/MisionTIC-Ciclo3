@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mascota Feliz - Registro Mascotas</title>
-    <link rel="stylesheet" href="Estilos/css/style.css"/>
-    <link rel="stylesheet" href="Estilos/css/responsive.css"/>
-    <link rel="stylesheet" href="Estilos/css/bootstrap.css"/>
+    <link rel="stylesheet" href="Estilos/estilosregmas.css"/>
 </head>
 <body>
-    <h2>Registro Mascotas</h2>
-    <section>
-        <form action="/action_page.php">
+    <div class="form">
+        <form target="_blank" method="get">
+          <img src="Imagenes/vector-logo-mascotas.jpg"alt="Mascotas">
+          <h1>Registro Mascotas</h1>
             <label for="fname">Id:</label><br>
             <input type="text" id="fname" name="fname" ><br>
             <label for="fname">Nombre:</label><br>
@@ -27,8 +26,12 @@
             <input type="text" id="lname" name="lname" ><br>
             <label for="lname">Veterinario:</label><br>
             <input type="text" id="lname" name="lname" ><br>
-            <button type="button">Cancelar</button><button type="button">Guardar</button>
+          <div>
+            <button class="button button1"><a href="Index.html">Cancelar</a></button>
+            <button class="button button1">Guardar</button>
+          </div>
+          <br><br>
         </form> 
-    </section>
+      </div> 
 </body>
 </html>
