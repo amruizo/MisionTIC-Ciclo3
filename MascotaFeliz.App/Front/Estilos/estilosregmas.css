@@ -11,7 +11,7 @@ body {
   }
   
   .form {
-    display:flex;
+    display:block;
     justify-content: center;
     align-items:center;
     text-align: left;
@@ -40,7 +40,7 @@ body {
   }
   
   label {
-    display:flex;
+    display:block;
     margin: 2px;
     font-size: 15px;
 
@@ -93,4 +93,26 @@ body {
   margin: 5px 5px;
   display: inline-block;
   background: white;
+  }
+
+  table{
+    border: #631058 solid;
+  }
+
+  .form1 {
+    display:block;
+    justify-content:center;
+    align-items:left;
+    text-align: center;
+    border: 2px solid rgb(41, 54, 59);
+    padding: 20px;
+    width: 350px;
+    height:auto;
+    margin: 10px auto;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 15px;
+    background-color: #e8efef;
+  }
+  section{
+    background-color: #e8efef;
   }

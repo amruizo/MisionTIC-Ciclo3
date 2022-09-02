@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="Estilos/estilosregmas.css"/>
 </head>
 <body>
-    <h3>Consultar Mascota</h3>
-    <label for="fname">Id:</label><br>
-    <input type="text" id="fname" name="fname" ><br>
-    <label for="fname">Nombre:</label><br>
-    <input type="text" id="fname" name="fname" ><br>
-    <button type="button">Cancelar</button><button type="button">Consultar</button>
+  <div class="form1">
+    <h1>Consultar Mascota</h1>
+    <form target="_blank" method="get">
+      <label for="fname">Id:</label><br>
+      <input type="text" id="fname" name="fname" ><br>
+      <label for="fname">Nombre:</label><br>
+      <input type="text" id="fname" name="fname" ><br>
+      <button class="button button1"><a href="Index.html">Cancelar</a></button>
+      <button class="button button1">Consultar</button>
+    </form>
+  </div>
+  
+  <section>
     <h4>Información de la Mascota</h4>
     <table style="width:100%">
         <tr>
@@ -25,7 +32,10 @@
           <td>Veterinario</td>
         </tr>
       </table>
-      <h4>Listado Mascotas</h4>
+  </section>
+    
+  <section>
+    <h4>Listado Mascotas</h4>
       <table style="width:100%">
           <tr>
             <td>Id</td>
@@ -37,5 +47,7 @@
             <td>Veterinario</td>
           </tr>
         </table>
+  </section>
+      
 </body>
 </html>
