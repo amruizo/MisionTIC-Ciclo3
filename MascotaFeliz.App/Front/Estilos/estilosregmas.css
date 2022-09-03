@@ -95,9 +95,13 @@ body {
   background: white;
   }
 
-  table{
-    border: #631058 solid;
-  }
+  tr, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border-block:  #631058;
+    
+ }
 
   .form1 {
     display:block;
