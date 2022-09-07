@@ -61,7 +61,7 @@
   height: 700px;
   display: flex;
   justify-content: left;  
-  margin-top: 80px;
+  margin-top: 30px;  
 }
 
 .testbox {
@@ -82,7 +82,7 @@
 
 
   table {
-    margin: 1px auto;
+    /*margin: 1px auto;*/
     margin-left: 400px;
     background-color: #ffe6a7;
     width: 800px;
