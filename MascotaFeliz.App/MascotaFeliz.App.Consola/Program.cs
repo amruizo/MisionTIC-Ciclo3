@@ -55,5 +55,19 @@ namespace MascotaFeliz.App.Consola
             };
             _repoMascota.AddMascota(mascota);
         }
+
+        private static void BuscarMascota(int idMascota)
+        {
+            var mascota = _repoMascota.GetMascota(idMascota);
+            Console.WriteLine(mascota.Nombre+" "+mascota.Color+" "+mascota.Especie+" "+mascota.Raza);
+        }
+
+        private static void ListadoMascotas()
+        {
+            var Mascotas = _repoMascota.GetAllMascotas();
+                foreach (Mascota i in Mascotas) {
+                    Console.WriteLine(i.Nombre+" "+i.Color+" "+i.Especie+" "+i.Raza);
+                }
+        }
     }
 }
