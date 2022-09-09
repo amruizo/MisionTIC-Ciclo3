@@ -6,6 +6,7 @@ namespace MascotaFeliz.App.Consola
 {
     class Program
     {
+        //Comment test
         private static IRepositorioMascota _repoMascota = new RepositorioMascota(new Persistencia.AppContext());
         private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
         private static IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
