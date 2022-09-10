@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    background-color: lightpink;
+    background:url(../Imagenes/banner1.jpg)top right rgb(220, 174, 221);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #631058;
+    font-size: 20px;
+  }
+  
+  .form {
+    display:block;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    border: 2px solid rgb(41, 54, 59);
+    padding: 20px;
+    width: 350px;
+    height:auto;
+    margin: 10px auto;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 15px;
+    background-color: #e8efef;
+  }
+  .button {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(247, 219, 240);
+  }
+  .button1:hover {
+    background-color: #f3ecea;
+  }
+  
+  label {
+    display:block;
+    margin: 2px;
+    font-size: 15px;
+
+  }
+
+  input, select {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  p{
+    text-align:justify;
+    font-size: 20px; 
+    margin: 10px; 
+    background:white;
+
+  }
+
+  footer p{
+    text-align: center;
+    background:white;
+    margin: 5px 5px;
+}
+ 
+  h1 {
+    color: #631058;;
+  }
+
+  img { 
+    display: block; 
+    margin: auto; 
+    width: 180px;
+    height: 180px;
+  }
+
+  nav{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 5px;
+    text-align: center;
+    background: white; 
+  }
+
+ header{
+  width: 95%;
+  padding: 10px;
+  margin: 5px 5px;
+  display: inline-block;
+  background: white;
+  }
+
+  tr, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border-block:  #631058;
+    
+ }
+
+  .form1 {
+    display:block;
+    justify-content:center;
+    align-items:left;
+    text-align: center;
+    border: 2px solid rgb(41, 54, 59);
+    padding: 20px;
+    width: 350px;
+    height:auto;
+    margin: 10px auto;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 15px;
+    background-color: #e8efef;
+  }
+  section{
+    background-color: #e8efef;
+  }

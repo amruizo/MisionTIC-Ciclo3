@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas</title>
+    <link rel="stylesheet" href="styletabla.css"/>
+</head>
+<body class="Fondo">
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+        <a href="Index.html" class="nav-menu-link nav-link">Mascota Feliz</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="RegistroDueno.html" class="nav-menu-link nav-link">Propietarios</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="RegistroMascota.html" class="av-menu-link nav-link">Mascotas</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="RegistroVeterinario.html" class="nav-menu-link nav-link">Veterinarios</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="ConsultarMascota.html" class="nav-menu-link nav-link">Consultar</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="box-padre", >
+    <div class="testbox">
+      <center><h2>Buscar Mascota</h2><center>  
+      <form action="/" class = form>
+        <hr>       
+        <div class="select">
+          <select name="format" id="format">
+            <option selected disabled>Seleccione item</option>
+            <option value="txt">Lista general</option>
+            <option value="pdf">Id. Mascota</option>
+            <option value="txt">Id. Propietario</option>
+            <option value="txt">Id. Veterinario</option>
+          </select>
+        </div>        
+      </form>
+    </div>
+    <div classs="contenedor-tabla">
+      <h3>Información de la Mascota</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th><th>Nombre</th><th>Color</td><th>Especie</th><th>Raza</th><th>Dueño</th>
+            <th>Veterinario</th>
+          </tr>
+        </thead>
+          <tr>
+            <td>6465</td>
+            <td>Zeus</td>
+            <td>Amarillo</td>
+            <td>Canino</td>
+            <td>Criollo</td>
+            <td>José Alberto Granados</td>
+            <td>Pedor Jesús Almeida</td>
+          </tr>
+          <tr>
+            <td>230</td>
+            <td>Pepito</td>
+            <td>Blanco</td>
+            <td>Felinoi</td>
+            <td>Angora</td>
+            <td>Jime Hernaández Gómez</td>
+            <td>Angélica María Moreno R.</td>
+          </tr>        
+        </table>
+    </div>
+  </div>  
+      
+
+</body>
+</html>
